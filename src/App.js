@@ -12,7 +12,7 @@ import { Home } from './views/Home';
 function App() {
   const [pizzas, setPizzas] = useState([]);
   const [cartitems, setCartitems] = useState([]);
-  const endpoint = "/pizzas.json";
+  const endpoint = "Desafio-pizzeria-mamma-mia/pizzas.json";
 
   const getPizzas= async () => {
     const response = await fetch(endpoint);
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <MyContext.Provider value={{pizzas, setPizzas, cartitems, setCartitems, getPizza, totalCart, addToCart}}>
-        <BrowserRouter>
+        <BrowserRouter basename='Desafio-pizzeria-mamma-mia'>
           <Nav/>
           <Routes>
             <Route path="/" element={<Home/>} />
