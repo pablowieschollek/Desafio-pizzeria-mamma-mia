@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Desafio-pizzeria-mamma-mia/static/css/main.665dfd22.css",
-    "main.js": "/Desafio-pizzeria-mamma-mia/static/js/main.70bae1c8.js",
+    "main.js": "/Desafio-pizzeria-mamma-mia/static/js/main.58448346.js",
     "static/media/pizzas.png": "/Desafio-pizzeria-mamma-mia/static/media/pizzas.b675e2cd88385b94fd1e.png",
     "index.html": "/Desafio-pizzeria-mamma-mia/index.html",
     "main.665dfd22.css.map": "/Desafio-pizzeria-mamma-mia/static/css/main.665dfd22.css.map",
-    "main.70bae1c8.js.map": "/Desafio-pizzeria-mamma-mia/static/js/main.70bae1c8.js.map"
+    "main.58448346.js.map": "/Desafio-pizzeria-mamma-mia/static/js/main.58448346.js.map"
   },
   "entrypoints": [
     "static/css/main.665dfd22.css",
-    "static/js/main.70bae1c8.js"
+    "static/js/main.58448346.js"
   ]
 }
