@@ -12,7 +12,7 @@ import { Home } from './views/Home';
 function App() {
   const [pizzas, setPizzas] = useState([]);
   const [cartitems, setCartitems] = useState([]);
-  const endpoint = "Desafio-pizzeria-mamma-mia/pizzas.json";
+  const endpoint = "/Desafio-pizzeria-mamma-mia/pizzas.json";
 
   const getPizzas= async () => {
     const response = await fetch(endpoint);
